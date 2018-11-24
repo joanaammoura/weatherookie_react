@@ -1,32 +1,70 @@
-.App {
+body {
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.weather {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 5% 0 0 0;
+  background-color: rgba(210, 210, 210, 0.6);
+}
+
+.weather-date {
+  padding: 3% 10% 0 3%;
+}
+
+.weather-time {
+  padding: 0 3% 0 3%;
+}
+
+.weather-today {
+  padding: 65% 0 0 0%;
+}
+
+.weather-today__icon--img {
+  width: 110px;
+  height: 110px;
+  float: left;
+}
+
+.weather-today__temperature {
+  font-size: 70px;
+  font-weight: 100;
+  padding: 0 5px 0 140px;
+}
+
+.weather-location {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.weather-extras {
+  margin: 5% 0 0 0;
+  padding: 20px 0 0 5px;
+}
+
+.forecast {
+  width: auto;
+  height: auto;
+  margin: 3% 0 0 1.4%;
+  background-color: rgba(210, 210, 210, 0.6);
+  font-size: 18px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.day__block {
+  float: left;
+  padding: 40px;
+  width: 12.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.day__block-image {
+  width: 70px;
+  height: 70px;
 }
