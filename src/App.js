@@ -10,7 +10,7 @@ class App extends Component {
     city: "Lisbon",
     precipitation: "100",
     humidity: "89",
-    wind: "9",
+    wind: "10",
     weekDays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     max: ["11", "10", "12", "14", "14", "10", "9", "10"],
     min: ["9", "8", "10", "11", "13", "9", "7", "8"]
