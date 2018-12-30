@@ -1,0 +1,34 @@
+input[type="search"] {
+  width: auto;
+  height: auto;
+  margin: 5% 1% 0 45%;
+  background-color: rgba(210, 210, 210, 0.6);
+  border: 0;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: auto;
+  font-weight: auto;
+  text-align: left;
+  color: #fff;
+  -webkit-appearance: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.search-btn {
+  float: right;
+  width: auto;
+  height: auto;
+  background-color: rgba(210, 210, 210, 0.6);
+  border: 0;
+  border-radius: 0;
+  margin: 5% 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: auto;
+  font-weight: auto;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}

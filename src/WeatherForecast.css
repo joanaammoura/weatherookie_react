@@ -1,0 +1,26 @@
+.forecast {
+  width: auto;
+  height: auto;
+  background-color: rgba(210, 210, 210, 0.6);
+  font-size: 18px;
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+.day__block {
+  width: 12.5%;
+  padding: 40px 0 40px 15%;
+}
+
+.day__block-image {
+  width: 70px;
+  height: 70px;
+}
+
+.day__block-day {
+  padding: 0 18px;
+}
+
+.day__block-temps {
+  padding: 0 23px;
+}
